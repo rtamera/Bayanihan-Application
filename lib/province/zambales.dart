@@ -14,7 +14,6 @@ class ShowZambalesData extends StatefulWidget {
 List<List<dynamic>> _data = [];
 
 class _ShowZambalesDataState extends State<ShowZambalesData> {
-  //convert data from csv file to a list
  //convert data from csv file to a list
   void _loadCSV() async {
     final _rawData = await rootBundle.loadString("assets/res/zambales_data.csv");
