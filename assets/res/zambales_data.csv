@@ -1,0 +1,15 @@
+Region,Province,City/Municipality,CQ Status,Requirement#1,Requirement#2,Requirement#3,Requirement#4,Requirement#5,No. of Active Cases,No. of Deaths,No. of Recoveries,No. of Tested
+3,Zambales,Botolan,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,33,1,203,221
+3,Zambales,Cabangan,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,5,1,35,49
+3,Zambales,Candelaria,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,8,0,79,85
+3,Zambales,Castillejos,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,28,3,201,252
+3,Zambales,Iba,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,38,3,245,282
+3,Zambales,Masinloc,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,11,1,306,326
+3,Zambales,Olongapo City,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,,175,69,1268,1512
+3,Zambales,Palauig,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,27,3,122,156
+3,Zambales,San Antonio,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,23,4,122,144
+3,Zambales,San Felipe,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,16,1,29,46
+3,Zambales,San Marcelino,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,9,2,75,85
+3,Zambales,San Narciso,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,37,3,70,118
+3,Zambales,Santa Cruz,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,2,2,108,116
+3,Zambales,Subic,MGCQ,Register at https://s-pass.ph,Approved Travel Coordination Permit (TCP),Valid Government ID,Requires negative RT-PCR test results,Rapid Antigen Test (RAT) upon arrival,52,10,310,386
