@@ -15,14 +15,14 @@ final kActiveShadowColor = Color(0xFF4056C6).withOpacity(.15);
 // Text Style
 const kHeadingTextStyle = TextStyle(
   fontSize: 22,
-  fontWeight: FontWeight.w600,
+  fontWeight: FontWeight.bold,
 );
 
 const kSubTextStyle = TextStyle(fontSize: 16, color: kTextLightColor);
 
 //PLACE NAME
 const kTitleTextstyle = TextStyle(
-  fontSize: 25,
+  fontSize: 32,
   color: kTitleTextColor,
   fontWeight: FontWeight.bold,
 );

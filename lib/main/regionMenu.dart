@@ -13,7 +13,8 @@ class _RegionMenuState extends State<RegionMenu> {
 
   /// Function to create a card and redirect it to a chosen page.
   GestureDetector createCard(String path, String text) {
-    return GestureDetector( //Detects when you click the card
+    return GestureDetector(
+      //Detects when you click the card
       onTap: () {
         Navigator.pushNamed(context, '/$path'); //Directs to chosen path
       },
@@ -23,14 +24,15 @@ class _RegionMenuState extends State<RegionMenu> {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
         ),
-        child: SizedBox( //Contains our text in card
+        child: SizedBox(
+          //Contains our text in card
           width: 300,
           height: 70,
           child: Center(
             child: Text(
               '$text',
               style: TextStyle(
-                  fontSize: 30, fontFamily: 'Poppins', color: Colors.white),
+                  fontSize: 30, fontFamily: 'Poppins', color: Colors.white, fontWeight: FontWeight.bold),
             ),
           ),
         ),
@@ -48,21 +50,25 @@ class _RegionMenuState extends State<RegionMenu> {
         centerTitle: true,
         elevation: 0,
         actions: <Widget>[
-          IconButton( //Added Information Button left of app bar
+          IconButton(
+            //Added Information Button left of app bar
             icon: Icon(
               Icons.info,
               color: Colors.white,
             ),
             onPressed: () {
-              Navigator.pushNamed(context, '/about'); //Navigates to about us page
+              Navigator.pushNamed(
+                  context, '/about'); //Navigates to about us page
             },
           ),
         ],
       ),
-      body: SafeArea( //Ensures our app contents does not render outside safe space
+      body: SafeArea(
+        //Ensures our app contents does not render outside safe space
         child: Center(
           child: SingleChildScrollView(
-                      child: Column( //Used a column for menu contents
+            child: Column(
+              //Used a column for menu contents
               children: <Widget>[
                 SizedBox(width: 0, height: 5.0), //Used to leave a gap
                 Text(
@@ -76,12 +82,15 @@ class _RegionMenuState extends State<RegionMenu> {
                 ),
                 //Create Card functions called
                 createCard('region1', 'Region 1'),
-                createCard('region2','Region 2'),
-                createCard('region3','Region 3'),
-                createCard('region4a','Region 4A'),
+                createCard('region2', 'Region 2'),
+                createCard('region3', 'Region 3'),
+                createCard('region4a', 'Region 4A'),
                 createCard('car', 'CAR'),
-                createCard('ncr','NCR'),
-                Image.asset('assets/icon.png', alignment: Alignment.bottomCenter, width: 150.0, height: 150.0),
+                createCard('ncr', 'NCR'),
+                Image.asset('assets/icon.png',
+                    alignment: Alignment.bottomCenter,
+                    width: 150.0,
+                    height: 150.0),
               ],
             ),
           ),
