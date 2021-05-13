@@ -20,9 +20,9 @@ const kHeadingTextStyle = TextStyle(
 
 const kSubTextStyle = TextStyle(fontSize: 16, color: kTextLightColor);
 
-//PLACE NAME 
+//PLACE NAME
 const kTitleTextstyle = TextStyle(
-  fontSize: 35,
+  fontSize: 25,
   color: kTitleTextColor,
   fontWeight: FontWeight.bold,
 );
@@ -46,4 +46,11 @@ const kTitleTextstyle4 = TextStyle(
   fontSize: 28,
   color: kTitleTextColor,
   fontWeight: FontWeight.bold,
+);
+
+//APP INFO
+const kSubTextStyle2 = TextStyle(
+  fontSize: 28,
+  color: kTitleTextColor,
+  fontWeight: FontWeight.normal,
 );

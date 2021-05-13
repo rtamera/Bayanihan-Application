@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'benguet.dart';
+import '../province/benguet.dart';
 
 class ShowCarData extends StatefulWidget {
   @override

@@ -1,5 +1,5 @@
 Region,Province,City/Municipality,CQ Status,Requirement#1,Requirement#2,Requirement#3,Requirement#4,Requirement#5,No. of Active Cases,No. of Deaths,No. of Recoveries,No. of Tested
-1,Pangasinan,Agno,MGCQ,Register at https://s-pass.ph,Proof of Essential Travel if coming from the NCR Plus Bubble,Valid Government ID,Negative RT PCR Test is not required,<leave blank if no more>,1,1,29,31
+1,Pangasinan,Agno,MGCQ,Register at https://s-pass.ph,Proof of Essential Travel if coming from the NCR Plus Bubble,Valid Government ID,Negative RT PCR Test is not required,,1,1,29,31
 1,Pangasinan,Aguilar,MGCQ,Register at https://s-pass.ph,Proof of Essential Travel if coming from the NCR Plus Bubble,Valid Government ID,Negative RT PCR Test is not required,,9,6,95,110
 1,Pangasinan,Alaminos,MGCQ,Register at https://s-pass.ph,Proof of Essential Travel if coming from the NCR Plus Bubble,Valid Government ID,Negative RT PCR Test is not required,,18,14,284,316
 1,Pangasinan,Alcala,MGCQ,Register at https://s-pass.ph,Proof of Essential Travel if coming from the NCR Plus Bubble,Valid Government ID,Negative RT-PCR test result is required if individual shows symptoms,,4,3,74,81

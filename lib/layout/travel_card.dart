@@ -59,14 +59,16 @@ class TravelCard extends StatelessWidget {
                         ),
                       ),
                       Expanded(
-                        child: Text(
-                          text,
-                          maxLines: 4,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
-                            fontSize: 22,
+                        child: SingleChildScrollView(
+                          child: Text(
+                            text,
+                            maxLines: 20,
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              fontSize: 22,
+                            ),
                           ),
-                        ),
+                        )
                       ),
                       Align(
                         alignment: Alignment.topRight,
