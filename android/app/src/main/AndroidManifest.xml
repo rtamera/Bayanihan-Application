@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bayanihan_application">
    <application
-        android:label="bayanihan_application"
+        android:label="Bayanihan- Heal as One"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
