@@ -59,6 +59,7 @@ class _ShowAppInfoState extends State<ShowAppInfo> {
                 ],
               ),
             ),
+            SizedBox(width: 0, height: 30.0),
           ],
         ),
       ),
