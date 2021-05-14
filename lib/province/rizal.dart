@@ -101,47 +101,40 @@ class _ShowRizalDataState extends State<ShowRizalData> {
                                       ),
                                       SizedBox(height: 20),
                                       Container(
-                                        padding: EdgeInsets.all(20),
-                                        decoration: BoxDecoration(
-                                          borderRadius:
-                                              BorderRadius.circular(20),
-                                          color: Colors.white,
-                                          boxShadow: [
-                                            BoxShadow(
-                                              offset: Offset(0, 4),
-                                              blurRadius: 30,
-                                              color: kShadowColor,
-                                            ),
-                                          ],
-                                        ),
-                                        child: Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          children: <Widget>[
-                                            //Case updates card
-                                            Counter(
-                                              color: kInfectedColor,
-                                              number: _data[index][8],
-                                              title: "Active",
-                                            ),
-                                            Counter(
-                                              color: kDeathColor,
-                                              number: _data[index][9],
-                                              title: "Deaths",
-                                            ),
-                                            Counter(
-                                              color: kRecovercolor,
-                                              number: _data[index][10],
-                                              title: "Recovered",
-                                            ),
-                                            Counter(
-                                              color: kPrimaryColor,
-                                              number: _data[index][11],
-                                              title: "Total Cases",
-                                            ),
+                                        //alignment: Alignment.center,
+                                        child: Table(
+                                          defaultColumnWidth:
+                                              FlexColumnWidth(10),
+                                          children: [
+                                            TableRow(children: [
+                                              //Case updates card
+                                              Counter(
+                                                color: kInfectedColor,
+                                                number: _data[index][8],
+                                                title: "Active",
+                                              ),
+                                              Counter(
+                                                color: kDeathColor,
+                                                number: _data[index][9],
+                                                title: "Deaths",
+                                              ),
+                                            ]),
+                                            TableRow(children: [
+                                              Counter(
+                                                color: kRecovercolor,
+                                                number: _data[index][10],
+                                                title: "Recovered",
+                                              ),
+                                              Counter(
+                                                color: kPrimaryColor,
+                                                number: _data[index][11],
+                                                title: "Total Cases",
+                                              ),
+                                            ])
                                           ],
                                         ),
                                       ),
+                                      SizedBox(height: 20),
                                       SizedBox(height: 20),
                                       Row(
                                         mainAxisAlignment:
