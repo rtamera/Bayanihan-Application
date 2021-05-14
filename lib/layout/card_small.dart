@@ -27,13 +27,13 @@ class CardSmall extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-          child: Flexible(
-          child: Container(
-        color: Colors.amber,
-        height: 150,
-        child: GestureDetector(
-          onTap: tap,
-          child: Card(
+      child: Flexible(
+        child: Container(
+          color: Colors.amber,
+          height: 150,
+          child: GestureDetector(
+            onTap: tap,
+            child: Card(
               color: Colors.white,
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(4.0))),
@@ -49,61 +49,63 @@ class CardSmall extends StatelessWidget {
                             topRight: Radius.circular(4.0)),
                       ))),
                   Flexible(
-                      flex: 20,
-                      child: Padding(
-                        padding: const EdgeInsets.only(
-                            top: 100.0, bottom: 100.0, left: 100.0, right: 100.0),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            // data from csv
-                            Text(title,
-                                style: TextStyle(
-                                    color: Colors.blueAccent,
-                                    fontSize: 12,
-                                    fontFamily: "Poppins")),
-                            Text(req1,
-                                style: TextStyle(
-                                    color: Colors.blueAccent,
-                                    fontSize: 12,
-                                    fontFamily: "Poppins")),
-                            Text(req2,
-                                style: TextStyle(
-                                    color: Colors.blueAccent,
-                                    fontSize: 12,
-                                    fontFamily: "Poppins")),
-                            Text(req3,
-                                style: TextStyle(
-                                    color: Colors.blueAccent,
-                                    fontSize: 12,
-                                    fontFamily: "Poppins")),
-                            Text(req4,
-                                style: TextStyle(
-                                    color: Colors.blueAccent,
-                                    fontSize: 12,
-                                    fontFamily: "Poppins")),
-                            Text(req5,
-                                style: TextStyle(
-                                    color: Colors.blueAccent,
-                                    fontSize: 12,
-                                    fontFamily: "Poppins")),
-                            Padding(
-                              padding: const EdgeInsets.only(top: 8.0),
-                              child: Text(status,
-                                  style: TextStyle(
-                                    color: Colors.amber,
-                                    fontSize: 11,
-                                  ),),
-                            )
-                          ],
-                        ),
+                    flex: 20,
+                    child: Padding(
+                      padding: const EdgeInsets.only(
+                          top: 100.0, bottom: 100.0, left: 100.0, right: 100.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          // data from csv
+                          Text(title,
+                              style: TextStyle(
+                                  color: Colors.blueAccent,
+                                  fontSize: 12,
+                                  fontFamily: "Poppins")),
+                          Text(req1,
+                              style: TextStyle(
+                                  color: Colors.blueAccent,
+                                  fontSize: 12,
+                                  fontFamily: "Poppins")),
+                          Text(req2,
+                              style: TextStyle(
+                                  color: Colors.blueAccent,
+                                  fontSize: 12,
+                                  fontFamily: "Poppins")),
+                          Text(req3,
+                              style: TextStyle(
+                                  color: Colors.blueAccent,
+                                  fontSize: 12,
+                                  fontFamily: "Poppins")),
+                          Text(req4,
+                              style: TextStyle(
+                                  color: Colors.blueAccent,
+                                  fontSize: 12,
+                                  fontFamily: "Poppins")),
+                          Text(req5,
+                              style: TextStyle(
+                                  color: Colors.blueAccent,
+                                  fontSize: 12,
+                                  fontFamily: "Poppins")),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 8.0),
+                            child: Text(
+                              status,
+                              style: TextStyle(
+                                color: Colors.amber,
+                                fontSize: 11,
+                              ),
+                            ),
+                          )
+                        ],
                       ),
-                      ),
+                    ),
+                  ),
                 ],
               ),
-              ),
+            ),
+          ),
         ),
-      ),
       ),
     );
   }

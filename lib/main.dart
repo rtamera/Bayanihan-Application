@@ -24,7 +24,6 @@ void main() {
         '/ncr': (context) => ShowNCRData(),
         '/car': (context) => ShowCarData(),
         '/about': (context) => ShowAppInfo(),
-        // '/loading': (context) => loadingCsv(),
       },
     ),
   );

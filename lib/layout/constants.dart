@@ -9,6 +9,7 @@ const kInfectedColor = Color(0xFFFF8748);
 const kDeathColor = Color(0xFFFF4848);
 const kRecovercolor = Color(0xFF36C12C);
 const kPrimaryColor = Color(0xFF3382CC);
+const navColor = Color(0xff264653);
 final kShadowColor = Color(0xFFB7B7B7).withOpacity(.16);
 final kActiveShadowColor = Color(0xFF4056C6).withOpacity(.15);
 
@@ -25,6 +26,7 @@ const kTitleTextstyle = TextStyle(
   fontSize: 32,
   color: kTitleTextColor,
   fontWeight: FontWeight.bold,
+  fontFamily: 'Poppins',
 );
 
 //MCQ STATUS
@@ -51,6 +53,14 @@ const kTitleTextstyle4 = TextStyle(
 //APP INFO
 const kSubTextStyle2 = TextStyle(
   fontSize: 28,
+  fontFamily: 'WorkSans',
   color: kTitleTextColor,
   fontWeight: FontWeight.normal,
+);
+
+//Navbar
+const navBar = TextStyle(
+  color: Colors.white,
+  fontSize: 30.0,
+  fontWeight: FontWeight.bold,
 );

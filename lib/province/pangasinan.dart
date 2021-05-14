@@ -36,8 +36,14 @@ class _ShowPangasinanDataState extends State<ShowPangasinanData> {
     return Scaffold(
       backgroundColor: Colors.amber,
       appBar: AppBar(
-        title: Text("Cities/Municipalities"),
-        backgroundColor: Colors.blue.shade900,
+        title: Text(
+          "Cities/Municipalities",
+          style: TextStyle(
+            fontFamily: 'Poppins',
+            fontSize: 20,
+          ),
+        ),
+        backgroundColor: navColor,
         centerTitle: true,
         elevation: 0,
       ),
@@ -74,8 +80,7 @@ class _ShowPangasinanDataState extends State<ShowPangasinanData> {
                                                       style: kTitleTextstyle4,
                                                     ),
                                                     TextSpan(
-                                                      text:
-                                                          "as of May 8, 2021",
+                                                      text: "as of May 8, 2021",
                                                       style: TextStyle(
                                                         color: kTextLightColor,
                                                         fontSize: 15.0,

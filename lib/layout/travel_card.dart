@@ -19,7 +19,7 @@ class TravelCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
-          child: Padding(
+      child: Padding(
         padding: const EdgeInsets.only(bottom: 10),
         child: SizedBox(
           height: 156,
@@ -41,7 +41,11 @@ class TravelCard extends StatelessWidget {
                   ],
                 ),
               ),
-              Image.asset(image, height: 120.0, width: 140.0,),
+              Image.asset(
+                image,
+                height: 120.0,
+                width: 140.0,
+              ),
               Positioned(
                 left: 150,
                 child: Container(
@@ -59,17 +63,16 @@ class TravelCard extends StatelessWidget {
                         ),
                       ),
                       Expanded(
-                        child: SingleChildScrollView(
-                          child: Text(
-                            text,
-                            maxLines: 20,
-                            overflow: TextOverflow.ellipsis,
-                            style: TextStyle(
-                              fontSize: 22,
-                            ),
+                          child: SingleChildScrollView(
+                        child: Text(
+                          text,
+                          maxLines: 20,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                            fontSize: 22,
                           ),
-                        )
-                      ),
+                        ),
+                      )),
                       Align(
                         alignment: Alignment.topRight,
                       ),

@@ -44,14 +44,16 @@ flutter:
     - assets/res/cagayan_data.csv
     - assets/res/ncr_data.csv
     - assets/res/benguet_data.csv
-
   # assets:
     # - images/a_dot_burr.jpeg
     # - images/a_dot_ham.jpeg
 
   fonts:
-  - family: Poppins
-    fonts:
-    - asset: fonts/Poppins-SemiBold.ttf
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-SemiBold.ttf
+    - family: WorkSans
+      fonts:
+      - asset: fonts/WorkSans-Light.ttf
 
 

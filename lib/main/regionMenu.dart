@@ -26,13 +26,16 @@ class _RegionMenuState extends State<RegionMenu> {
         ),
         child: SizedBox(
           //Contains our text in card
-          width: 300,
-          height: 70,
+          width: 320,
+          height: 75,
           child: Center(
             child: Text(
               '$text',
               style: TextStyle(
-                  fontSize: 30, fontFamily: 'Poppins', color: Colors.white, fontWeight: FontWeight.bold),
+                  fontSize: 32,
+                  fontFamily: 'Poppins',
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold),
             ),
           ),
         ),
@@ -45,10 +48,17 @@ class _RegionMenuState extends State<RegionMenu> {
     return Scaffold(
       backgroundColor: myHexColor,
       appBar: AppBar(
-        title: Text('Bayanihan, Heal as One'),
-        backgroundColor: Colors.blue.shade900,
+        title: Text(
+          'Bayanihan, Heal as One',
+          style: TextStyle(
+            fontSize: 23.0,
+            fontFamily: 'Poppins',
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: hexBlue,
         centerTitle: true,
-        elevation: 0,
+        elevation: 4,
         actions: <Widget>[
           IconButton(
             //Added Information Button left of app bar
@@ -75,7 +85,7 @@ class _RegionMenuState extends State<RegionMenu> {
                   'Pick a Region:',
                   style: TextStyle(
                     fontFamily: 'Poppins',
-                    fontSize: 50.0,
+                    fontSize: 52.0,
                     color: hexBlue,
                     fontWeight: FontWeight.bold,
                   ),

@@ -1,3 +1,4 @@
+import 'package:bayanihan_application/layout/constants.dart';
 import 'package:bayanihan_application/province/pangasinan.dart';
 import 'package:flutter/material.dart';
 
@@ -11,42 +12,44 @@ class _ShowRegion1DataState extends State<ShowRegion1Data> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor:  myHexColor,
+        backgroundColor: myHexColor,
         appBar: AppBar(
-          backgroundColor: Colors.blue[900],
-          title: Text('ILOCOS REGION'),
+          backgroundColor: navColor,
+          title: Text(
+            'ILOCOS REGION',
+            style: TextStyle(
+              fontFamily: 'Poppins',
+              fontSize: 20,
+            ),
+          ),
           centerTitle: true,
           elevation: 0,
         ),
         body: Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                MaterialButton(
-                  minWidth: 300,
-                  height: 75,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  color: Colors.red.shade900,
-                  child: new Text(
-                      "Pangasinan",
-                      style: new TextStyle(
-                        fontSize: 30,
-                        fontFamily: 'Poppins',
-                        color: Colors.white,
-                      )
-                  ),
-                  onPressed: () {
-                    Navigator.of(context).push(
-                        MaterialPageRoute(builder: (_) =>
-                            ShowPangasinanData())
-                    );
-                  },
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            MaterialButton(
+              minWidth: 300,
+              height: 75,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              color: Colors.red.shade900,
+              child: new Text(
+                "Pangasinan",
+                style: new TextStyle(
+                  fontSize: 30,
+                  fontFamily: 'Poppins',
+                  color: Colors.white,
                 ),
-              ],
-            )
-        )
-    );
+              ),
+              onPressed: () {
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (_) => ShowPangasinanData()));
+              },
+            ),
+          ],
+        )));
   }
 }

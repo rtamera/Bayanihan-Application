@@ -1,3 +1,4 @@
+import 'package:bayanihan_application/layout/constants.dart';
 import 'package:bayanihan_application/province/cagayan.dart';
 import 'package:flutter/material.dart';
 
@@ -11,42 +12,42 @@ class _ShowRegion2DataState extends State<ShowRegion2Data> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor:  myHexColor,
+        backgroundColor: myHexColor,
         appBar: AppBar(
-          backgroundColor: Colors.blue[900],
-          title: Text('CAGAYAN VALLEY'),
+          backgroundColor: navColor,
+          title: Text(
+            'CAGAYAN VALLEY',
+            style: TextStyle(
+              fontFamily: 'Poppins',
+              fontSize: 20,
+            ),
+          ),
           centerTitle: true,
           elevation: 0,
         ),
         body: Center(
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                MaterialButton(
-                  minWidth: 300,
-                  height: 75,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
-                  ),
-                  color: Colors.red.shade900,
-                  child: new Text(
-                      "Cagayan",
-                      style: new TextStyle(
-                        fontSize: 30,
-                        fontFamily: 'Poppins',
-                        color: Colors.white,
-                      )
-                  ),
-                  onPressed: () {
-                    Navigator.of(context).push(
-                        MaterialPageRoute(builder: (_) =>
-                            ShowCagayanData())
-                    );
-                  },
-                ),
-              ],
-            )
-        )
-    );
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            MaterialButton(
+              minWidth: 300,
+              height: 75,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              color: Colors.red.shade900,
+              child: new Text("Cagayan",
+                  style: new TextStyle(
+                    fontSize: 30,
+                    fontFamily: 'Poppins',
+                    color: Colors.white,
+                  )),
+              onPressed: () {
+                Navigator.of(context)
+                    .push(MaterialPageRoute(builder: (_) => ShowCagayanData()));
+              },
+            ),
+          ],
+        )));
   }
 }
