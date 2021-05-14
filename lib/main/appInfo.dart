@@ -38,7 +38,7 @@ class _ShowAppInfoState extends State<ShowAppInfo> {
                   Center(
                     child: Text(
                       "Bayanihan Heal As One Application",
-                      style: kHeadingTextStyle,
+                      style: TextStyle(fontFamily: 'Poppins', fontSize: 20.0, fontWeight: FontWeight.bold),
                     ),
                   ),
                 ],
