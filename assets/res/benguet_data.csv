@@ -1,15 +1,15 @@
-Region,Province,City/Municipality,CQ Status,Requirement#1,Requirement#2,Requirement#3,Requirement#4,Requirement#5,No. of Active Cases,No. of Deaths,No. of Recoveries,No. of Tested
-CAR,Benguet,Baguio City,MGCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Requires negative RT-PCR test results,Duly Issued VISITA QTP,10624,624,207,9421,20252
-CAR,Benguet,Atok,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,225,5,180,410
-CAR,Benguet,Bakun,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,97,5,87,189
-CAR,Benguet,Bokod,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,55,2,44,101
-CAR,Benguet,Buguias,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,458,25,344,827
-CAR,Benguet,Itogon,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,1321,20,1197,2538
-CAR,Benguet,Kabayan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,66,3,50,119
-CAR,Benguet,Kapangan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,258,1,239,498
-CAR,Benguet,Kibungan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,32,1,21,54
-CAR,Benguet,La Trinidad,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,2867,72,2548,5487
-CAR,Benguet,Manyakan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,1039,9,973,2021
-CAR,Benguet,Sablan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,116,1,108,225
-CAR,Benguet,Tuba,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,797,14,713,1524
-CAR,Benguet,Tublay,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,144,4,107,255
+Region,Province,City/Municipality,CQ Status,Requirement#1,Requirement#2,Requirement#3,Requirement#4,Requirement#5,No. of Active Cases,No. of Deaths,No. of Recoveries,No. of Tested,Active 2020,Active 2021,Deaths 2020,Deaths 2021,Recovered 2020,Recovered 2021
+CAR,Benguet,Baguio City,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Requires negative RT-PCR test results,Duly Issued VISITA QTP,637,213,10714,11564,6,631,65,148,3869,6845
+CAR,Benguet,Atok,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,20,5,223,248,0,20,0,5,16,207
+CAR,Benguet,Bakun,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,4,4,98,106,0,4,0,4,64,34
+CAR,Benguet,Bokod,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,10,2,60,72,0,10,1,1,14,46
+CAR,Benguet,Buguias,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,19,20,457,496,1,18,4,16,48,409
+CAR,Benguet,Itogon,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,102,15,1321,1438,0,102,5,10,838,483
+CAR,Benguet,Kabayan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,19,1,72,92,0,19,1,0,15,57
+CAR,Benguet,Kapangan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,12,1,266,279,0,12,0,1,41,225
+CAR,Benguet,Kibungan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,3,0,35,38,0,3,0,0,8,27
+CAR,Benguet,La Trinidad,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,174,79,2912,3165,0,174,17,62,1010,1902
+CAR,Benguet,Mankayan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,25,7,1024,1056,0,25,2,5,556,468
+CAR,Benguet,Sablan,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,10,1,133,144,0,10,0,1,38,95
+CAR,Benguet,Tuba,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,44,10,781,835,0,44,2,8,467,314
+CAR,Benguet,Tublay,GCQ,Register at https://s-pass.ph,No Travel Coordination Permit (TCP) needed,Valid Government ID,Negative RT PCR Test is not required,,13,4,141,158,0,13,1,3,24,117

@@ -79,7 +79,7 @@ class _ShowZambalesDataState extends State<ShowZambalesData> {
                                                     style: kTitleTextstyle4,
                                                   ),
                                                   TextSpan(
-                                                    text: "as of May 8, 2021",
+                                                    text: "as of May 15, 2021",
                                                     style: TextStyle(
                                                       color: kTextLightColor,
                                                       fontSize: 15.0,
@@ -190,6 +190,18 @@ class _ShowZambalesDataState extends State<ShowZambalesData> {
                                           title: "Requirement # 5",
                                         ),
                                       SizedBox(height: 30),
+                                      Center(
+                                        child: Text(
+                                          'Data is collected from DOH Data Drop.',
+                                          style: TextStyle(
+                                            fontFamily: 'Poppins',
+                                            fontSize: 18.0,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.blue[900],
+                                          ),
+                                        ),
+                                      ),
+                                      SizedBox(height: 20.0),
                                     ],
                                   ),
                                 ),

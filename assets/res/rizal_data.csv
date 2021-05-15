@@ -1,15 +1,14 @@
-Region,Province,City/Municipality,CQ Status,Requirement#1,Requirement#2,Requirement#3,Requirement#4,No. of Active Cases,No. of Deaths,No. of Recoveries,No. of Tested
-4A,Rizal,Angono,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,172,75,1666,1913
-4A,Rizal,Antipolo,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,253,166,7101,7520
-4A,Rizal,Baras,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,55,22,609,686
-4A,Rizal,Binangonan,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,340,117,2644,3101
-4A,Rizal,Cainta,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,395,119,3864,4378
-4A,Rizal,Cardona,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,69,29,568,666
-4A,Rizal,Jalala,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,3,5,84,92
-4A,Rizal,Montalban,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,503,97,3174,3774
-4A,Rizal,Morong,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,79,22,649,750
-4A,Rizal,Pililla,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,38,19,331,388
-4A,Rizal,Rodriguez,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,207,89,2042,2338
-4A,Rizal,San Mateo,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,63,23,810,896
-4A,Rizal,Tanay,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,423,108,3256,3787
-4A,Rizal,Taytay,MECQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,85,21,578,684
+Region,Province,City/Municipality,CQ Status,Requirement#1,Requirement#2,Requirement#3,Requirement#4,No. of Active Cases,No. of Deaths,No. of Recoveries,No. of Tested,Active 2020,Active 2021,Deaths 2020,Deaths 2021,Recovered 2020,Recovered 2021
+4A,Rizal,Angono,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,83,43,2170,2296,4,79,27,16,927,1243
+4A,Rizal,Antipolo,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,539,183,13372,14094,26,513,123,60,5137,8235
+4A,Rizal,Baras,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,29,15,669,713,4,25,9,6,306,363
+4A,Rizal,Binangonan,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,233,48,3573,3854,5,228,26,22,1343,2230
+4A,Rizal,Cainta,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,369,106,8869,9344,11,358,69,37,3698,5171
+4A,Rizal,Cardona,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,28,6,650,684,0,28,3,3,196,454
+4A,Rizal,Jalala,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,7,3,121,131,0,7,1,2,42,79
+4A,Rizal,Morong,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,45,8,750,803,1,44,3,5,287,463
+4A,Rizal,Pililla,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,36,8,421,465,1,35,5,3,167,254
+4A,Rizal,Rodriguez (Montalban),GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,263,94,4311,4668,7,256,65,29,1759,2552
+4A,Rizal,San Mateo,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,214,101,3873,4188,11,203,50,51,1570,2303
+4A,Rizal,Tanay,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,36,12,1092,1140,2,34,6,6,364,728
+4A,Rizal,Taytay,GCQ,Proof of Essential Travel In and Out,RT PCR Test is not required for domestic travelers,No Travel Pass needed,Negative RT PCR Test is not required,298,100,5697,6095,15,283,67,33,2532,3165
